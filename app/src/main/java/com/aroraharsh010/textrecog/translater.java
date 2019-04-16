@@ -15,11 +15,11 @@ public class translater extends AppCompatActivity {
     String SYMBOL;
     TextView tvLang;
     String texttobetranslated;
-    public static String[] languages={"Select target language","Albanian", "Azerbaijani", "Belaurian", "Bulgarian", "Czech", "Dutch", "English","Finnish",
+    public static String[] languages={"Select target language","Albanian","Hindi", "Azerbaijani", "Belaurian", "Bulgarian", "Czech", "Dutch", "English","Finnish",
             "French", "German", "Hungarian", "Italian", "Latvian", "Lithuanian", "Norwegian",
             "Polish","Portuguese", "Romanian", "Russian", "Serbian", "Slovak", "Spanish", "Swedish", "Turkish", "Ukrainian"
     };
-    public static String[] langsym={"","sq", "az", "be", "bg", "cs", "nl","en", "fi", "fr", "de", "hu", "it", "lv", "lt", "no", "pl", "pt", "ro", "ru", "sr", "sk", "es", "sv", "tr", "uk"
+    public static String[] langsym={"","sq","hi", "az", "be", "bg", "cs", "nl","en", "fi", "fr", "de", "hu", "it", "lv", "lt", "no", "pl", "pt", "ro", "ru", "sr", "sk", "es", "sv", "tr", "uk"
     };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
